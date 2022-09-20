@@ -1,20 +1,14 @@
 # Table of Contents
 
 * [Overview](#overview)
-* [Example Job List](#example-job-list)
 * [Helpful Links and Tutorials](#helpful-links-and-tutorials)
 * [Contributing](#contributing)
-* [Authors](#authors)
 * [License](#license)
 * [Troubleshooting](#troubleshooting)
 
 # Overview
 
-Welcome to the ICDS example job repository. Unfortunately, there are not any example jobs here yet, **but more will be coming soon!**
-
-# Example Job List
-
-There are currently no example jobs available yet. **More to come!**
+Welcome to the ICDS example job repository containing application "recipe files" for running jobs on the Roar supercomputing cluster.
 
 # Helpful Links and Tutorials
 
@@ -40,9 +34,6 @@ Here is a list of links and tutorial video that will be helpful to you if you ar
 
 If you would like to contribute to this repository, such as adding a new example job, make an update to an existing example job, open an issue, or even suggest an enhancement to this repository, then please read through this repository's CONTRIBUTING file for more info.
 
-# Authors
-
-* Jason C. Nucciarone - NucciTheBoss - jcn23@psu.edu
 
 # License
 
