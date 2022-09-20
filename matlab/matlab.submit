@@ -1,0 +1,17 @@
+#!/bin/bash 
+#PBS -l nodes=1:ppn=1 
+#PBS -l walltime=10:00 
+#PBS -l pmem=5gb 
+#PBS -A wff3_g_g_lc_icds-training
+#PBS -o gnrun.out
+#PBS -e gnrun.err
+
+# Load matlab
+module purge
+module load matlab/R2022a
+
+# Go to the correct place 
+cd $PBS_O_WORKDIR
+
+# Run the job itself 
+matlab -batch "mygnrun(1000)"
