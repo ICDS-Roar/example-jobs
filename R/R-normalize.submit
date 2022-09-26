@@ -12,7 +12,7 @@ module use /gpfs/group/RISE/sw7/modules
 module load r/4.1.0
 
 # Go to the correct place
-cd /gpfs/scratch/<user_id>/roar-example-jobs/R
+cd $PBS_O_WORKDIR
 
 # Run the job itself
 Rscript normalize.R
