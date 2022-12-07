@@ -1,46 +1,24 @@
-# Table of Contents
+# Pending Brnach
 
-* [Overview](#overview)
-* [Helpful Links and Tutorials](#helpful-links-and-tutorials)
-* [Contributing](#contributing)
-* [License](#license)
-* [Troubleshooting](#troubleshooting)
+This branch contains broken or archival examples which need testing or other modifications before they are ready to be made live.
 
-# Overview
+To migrate examples to the main branch:
 
-Welcome to the ICDS example job repository containing application "recipe files" for running jobs on the Roar supercomputing cluster.
+Check out the main branch
 
-# Helpful Links and Tutorials
+	$ git checkout main
 
-Here is a list of links and tutorial video that will be helpful to you if you are just starting out with submitting batch jobs on Roar or if you are just looking for a simple refresher:
+Create a new branch for your edits, using a meaningful name such as one that includes the software title and date
 
-* The Roar User's Guide:
+	$ git checkout -b software-edits-19790101
 
-  * https://www.icds.psu.edu/computing-services/roar-user-guide/
+Checkout any relevent files on the `pending` branch
 
-* The Roar Training Series:
+	$ git checkout pending -- path/to/file
 
-  * https://www.icds.psu.edu/computing-services/roar-training-series/
+Make necessary edits and test your changes to ensure they run as expected on Roar. Then make a commit with a message that details the changes made including the software title(s)
 
-* Roar on demand Tutorial Videos:
+	$ git add .
+	$ git commit -m "message describing the changes"
 
-  * https://www.icds.psu.edu/computing-services/roar-training-resources/roar-on-demand-tutorial-videos/
-
-* Adaptive Computing's documentation for PBS:
-
-  * http://docs.adaptivecomputing.com/torque/4-0-2/Content/topics/commands/qsub.htm
-
-# Contributing
-
-If you would like to contribute to this repository, such as adding a new example job, make an update to an existing example job, open an issue, or even suggest an enhancement to this repository, then please read through this repository's CONTRIBUTING file for more info.
-
-
-# License
-
-![License](https://img.shields.io/badge/license-MIT-brightgreen)
-
-This repository is licensed under the permisive MIT License. For more information on what this license entails, please feel free to visit https://en.wikipedia.org/wiki/MIT_License.
-
-# Troubleshooting
-
-If you encounter any issues while working with, building, or modifying any of the example jobs stored in this repository, please open an issue on this repository or email iask@ics.psu.edu. In that issue/email, please describe the issue that you are having, and please explain what you are trying to do with the container. The more information the merrier!
+Finally, make pull request on the GitHub repository website
