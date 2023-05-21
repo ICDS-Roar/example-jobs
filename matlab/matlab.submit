@@ -2,7 +2,7 @@
 #PBS -l nodes=1:ppn=1 
 #PBS -l walltime=10:00 
 #PBS -l pmem=5gb 
-#PBS -A wff3_g_g_lc_icds-training
+#PBS -A open
 #PBS -o gnrun.out
 #PBS -e gnrun.err
 
