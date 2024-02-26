@@ -2,7 +2,8 @@ Setup and use SQLite on Roar:
 
 - Download and uncompress SQLite:
 
-	$ bash download_sql.sh
+	$ wget https://sqlite.org/2024/sqlite-autoconf-3450100.tar.gz
+	$ tar-xf sqlite-autoconf-3450100.tar.gz
 
 - Compile and install SQLite:
 
